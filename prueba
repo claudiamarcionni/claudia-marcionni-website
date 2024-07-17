@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claudia Marcionni</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre Mí</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#testimonials">Testimonios</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <img src="img/claudia.jpg" alt="Claudia Marcionni">
+    <h1>Transformando Paradigmas para el Crecimiento Personal y Empresarial</h1>
+    <a href="#discover" class="cta-button">Descubre Más</a>
+  </div>
+</header>
+
+<section id="discover" class="featured-content">
+  <h2>Contenido Destacado</h2>
+  <div class="content-grid">
+    <article>
+      <h3>Última Publicación del Blog</h3>
+      <p>Descubre cómo la transformación paradigmática puede cambiar tu vida y tu negocio...</p>
+      <a href="blog.html">Leer Más</a>
+    </article>
+    <article>
+      <h3>Podcast Reciente</h3>
+      <p>Escucha a Claudia hablar sobre las últimas tendencias en desarrollo personal...</p>
+      <a href="podcast.html">Escuchar Ahora</a>
+    </article>
+    <article>
+      <h3>Video Destacado</h3>
+      <p>Mira el último video de Claudia sobre estrategias innovadoras para el bienestar...</p>
+      <a href="video.html">Ver Video</a>
+    </article>
+  </div>
+</section>
+
+<section class="social-proof">
+  <h2>Destacado en</h2>
+  <div class="logos">
+    <img src="img/logo1.png" alt="Medio 1">
+    <img src="img/logo2.png" alt="Medio 2">
+    <img src="img/logo3.png" alt="Medio 3">
+  </div>
+</section>
+
+<section id="about">
+  <h2>Sobre Mí</h2>
+  <p>Claudia Marcionni es una experta en transformación paradigmática y desarrollo personal y empresarial. Con años de experiencia ayudando a individuos y organizaciones a alcanzar su máximo potencial, Claudia se dedica a crear espacios de bienestar y crecimiento.</p>
+  <p>Su pasión por la innovación y su enfoque en el bienestar integral la han llevado a desarrollar programas y servicios que transforman vidas y negocios.</p>
+</section>
+
+<section>
+  <h2>Valores y Visión</h2>
+  <p>Claudia cree en la importancia de la autenticidad, la innovación y el compromiso con el bienestar. Su visión es acompañar a las personas y organizaciones en su viaje hacia un futuro más saludable y próspero.</p>
+</section>
+
+<section id="services">
+  <h2>Servicios</h2>
+  <div class="service">
+    <h3>Coaching y Consultoría</h3>
+    <p>Ofrecemos sesiones de coaching personalizadas, talleres grupales y consultoría para organizaciones.</p>
+    <a href="coaching.html">Más Información</a>
+  </div>
+  <div class="service">
+    <h3>Cursos y Programas</h3>
+    <p>Descubre nuestros cursos en línea y programas de formación diseñados para transformar tu vida y tu negocio.</p>
+    <a href="cursos.html">Ver Cursos</a>
+  </div>
+  <div class="service">
+    <h3>Talleres y Conferencias</h3>
+    <p>Reserva a Claudia para talleres interactivos y conferencias inspiradoras.</p>
+    <a href="talleres.html">Más Información</a>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <div class="blog-grid">
+    <article>
+      <h3>Publicación Reciente</h3>
+      <p>Explora nuestras últimas publicaciones sobre desarrollo personal y estrategias empresariales...</p>
+      <a href="post1.html">Leer Más</a>
+    </article>
+    <article>
+      <h3>Video Reciente</h3>
+      <p>Ve nuestros videos más recientes sobre bienestar y crecimiento personal...</p>
+      <a href="video1.html">Ver Video</a>
+    </article>
+    <article>
+      <h3>Podcast Reciente</h3>
+      <p>Escucha nuestros podcasts sobre innovación y transformación paradigmática...</p>
+      <a href="podcast1.html">Escuchar Ahora</a>
+    </article>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Testimonios</h2>
+  <div class="testimonial">
+    <blockquote>"Claudia ha transformado nuestra empresa con sus innovadoras estrategias de bienestar."</blockquote>
+    <p>- Nombre del Cliente</p>
+  </div>
+  <div class="testimonial">
+    <blockquote>"Gracias a Claudia, he alcanzado un nuevo nivel de desarrollo personal y profesional."</blockquote>
+    <p>- Nombre del Cliente</p>
+  </div>
+</section>
+
+<section>
+  <h2>Testimonios en Video</h2>
+  <div class="video-testimonials">
+    <video src="testimonio1.mp4" controls></video>
+    <video src="testimonio2.mp4" controls></video>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contacto</h2>
+  <form action="submit_form.php" method="post">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="social-media">
+    <h3>Sígueme en:</h3>
+    <a href="https://facebook.com/claudia" target="_blank">Facebook</a>
+    <a href="https://twitter.com/claudia" target="_blank">Twitter</a>
+    <a href="https://instagram.com/claudia" target="_blank">Instagram</a>
+  </div>
+  <div class="newsletter">
+    <h3>Únete a mi Boletín:</h3>
+    <form action="subscribe_newsletter.php
